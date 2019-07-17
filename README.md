@@ -1,13 +1,13 @@
-Data Processing in Serial Oscillation Crystallography
+serial_xds: Data Processing in Serial Oscillation Crystallography
 ================
-
+serial_xds is a python program that 
 
 Introduction
 ----------------
 
 Usage
 ----------------
-
+    serial_xds.py -h
     usage: serial_xds.py [-h] -i INPUT [INPUT ...] -b BEAMCENTER BEAMCENTER
                          [-r OSCILLATIONS] -d DISTANCE [-w WAVELENGTH]
                          [-f FRAMESPERDEGREE] [--output OUTPUT] [-sg SPACEGROUP]
@@ -35,3 +35,10 @@ Usage
       -u UNITCELL, --unitcell UNITCELL
                             Unit cell
 
+Dependencies
+--------------
+serial_xds requires:
+
+* X-Ray Detectore Software (XDS)
+* Neggia plugin (available from Dectris website)
+* xdsstat
