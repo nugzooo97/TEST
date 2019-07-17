@@ -7,7 +7,9 @@ Introduction
 
 Usage
 ----------------
+
 ::
+
 usage: serial_xds.py [-h] -i INPUT [INPUT ...] -b BEAMCENTER BEAMCENTER
                      [-r OSCILLATIONS] -d DISTANCE [-w WAVELENGTH]
                      [-f FRAMESPERDEGREE] [--output OUTPUT] [-sg SPACEGROUP]
@@ -34,4 +36,5 @@ optional arguments:
                         Space group
   -u UNITCELL, --unitcell UNITCELL
                         Unit cell
+
 ::
