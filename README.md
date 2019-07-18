@@ -3,7 +3,7 @@ Serial_xds: Data Processing in Serial Oscillation Crystallography
 
 Introduction
 ----------------
-serial_xds is a python program that process EIGER HDF5 serial oscillation data
+serial_xds is a python program that process data for serail osscilation crystallography
 
 Usage
 ----------------
@@ -35,6 +35,8 @@ Usage
       -u UNITCELL, --unitcell UNITCELL
                             Unit cell
 
+Computer system with two or more processing units is required to leverage parallel operation in master.py script.
+
 Dependencies
 --------------
 serial_xds depends on:
@@ -42,3 +44,13 @@ serial_xds depends on:
 * X-Ray Detectore Software (XDS)
 * Neggia plugin (available from Dectris website)
 * xdsstat (available from [XDSwiki](https://strucbio.biologie.uni-konstanz.de/xdswiki/index.php/Xdsstat#Availability))
+
+Installation
+---------------
+If files are on your locar machine, no work is needed.
+
+Assumptions
+---------------
+
+* EIGER HDF5 data
+* Data is collected serially, 5 frames per datawell (0.2<sup> o</sup> / frame)
