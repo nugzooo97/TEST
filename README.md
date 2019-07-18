@@ -41,4 +41,4 @@ serial_xds depends on:
 
 * X-Ray Detectore Software (XDS)
 * Neggia plugin (available from Dectris website)
-* xdsstat (available from https://strucbio.biologie.uni-konstanz.de/xdswiki/index.php/Xdsstat#Availability)
+* xdsstat (available from the [XDSwiki](https://strucbio.biologie.uni-konstanz.de/xdswiki/index.php/Xdsstat#Availability))
