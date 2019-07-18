@@ -57,4 +57,4 @@ Assumptions
 
 Acknowledgements
 -----------------
-serial_xds was developt at Cornell High Energy Synchrotron Source (CHESS) for serial ossilation crystallography data processing. Tested at MacCHESS ID7B2 beamline.
+serial_xds was developed at Cornell High Energy Synchrotron Source (CHESS) for serial ossilation crystallography data processing. Tested at MacCHESS ID7B2 beamline.
